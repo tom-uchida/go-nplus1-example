@@ -14,21 +14,21 @@
  ✔ Container go-nplus1-example-db-1   Started                                                                                                                                                               0.2s 
 
 > go run ./benchmark
-nplus1 10 0.12348420900000001
-nplus1 100 0.420842083
-nplus1 1000 3.474804208
-nplus1 10000 33.033019
-in_clause 10 0.053797791
-in_clause 100 0.054189833
-in_clause 1000 0.07876029200000001
-in_clause 10000 0.094964625
-join 10 0.054183125
-join 100 0.057108083000000004
-join 1000 0.08809725
-join 10000 0.089842125
-scaling.png generated
+nplus1 10 0.13553379200000001
+nplus1 100 0.428294708
+nplus1 1000 3.456485125
+nplus1 10000 33.357696791
+in_clause 10 0.050162584
+in_clause 100 0.053320957999999995
+in_clause 1000 0.08453812499999999
+in_clause 10000 0.09685408300000001
+join 10 0.050517916999999996
+join 100 0.053924
+join 1000 0.0851305
+join 10000 0.08542274999999999
+./benchmark/scaling.png generated
 
-> open scaling.png
+> open ./benchmark/scaling.png
 
 > docker compose down -v
 
